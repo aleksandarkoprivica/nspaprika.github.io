@@ -1,164 +1,249 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>Koprivica.rs</title>
-
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Responsive View Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Place favicon.ico in the root directory -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-
-    <!-- Animate.CSS -->
-    <link rel="stylesheet" href="css/animate.css"> 
-
-    <!-- Font Aewsome Style -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-
-	<!-- Fullscreen Background Slider -->
-    <link href="css/jquery.maximage.min.css" rel="stylesheet">
+    <title>Delicious</title>
+    <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
     
-    <!-- Bootstrap Style -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- =======================================================
+        Theme Name: Delicious
+        Theme URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
+        Author: BootstrapMade.com
+        Author URL: https://bootstrapmade.com
+    ======================================================= -->
+  </head>
+  <body>
+    <!--banner-->
+    <section id="banner">
+      <div class="bg-color">
+        <header id="header">
+            <div class="container">
+                <div id="mySidenav" class="sidenav">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <a href="#about">O nama</a>
+                  <a href="#menu-list">Jelovnik</a>
+                  <a href="#contact">Kontakt</a>
+                </div>
+                <!-- Use any element to open the sidenav -->
+                <span onclick="openNav()" class="pull-right menu-icon">☰</span>
+            </div>
+        </header>
+        <div class="container">
+        <div class="row">
+          <div class="inner text-center">
+            <!--<h1 class="logo-name">Delicious</h1>
+            <h2>Food To fit your lifestyle & health.</h2>
+            <p>Specialized in Indian Cuisine!!</p>-->
+            <img src="img/logo.png" alt="" class="img-responsive">
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- / banner -->
+    <!--about-->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center marb-35">
+                    <h1 class="header-h">Roštilj - Pizza - Sendviči</h1>
+                    <p class="header-p">Bulevar Kneza Miloša 17
+                    <br>Novo Naselje, Novi Sad</p>
 
-    <!-- Reset Style -->
-    <link rel="stylesheet" href="css/normalize.css">
-
-    <!-- Main Style -->
-    <link rel="stylesheet" href="css/main.css">
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="about-info">
+                            <h2 class="heading">vel illum qui dolorem eum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero impedit inventore culpa vero accusamus in nostrum dignissimos modi, molestiae. Autem iusto esse necessitatibus ex corporis earum quaerat voluptates quibusdam dicta!</p>
+                            <div class="details-list">
+                                <ul>
+                                    <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                                    <li><i class="fa fa-check"></i>Quisque finibus eu lorem quis elementum</li>
+                                    <li><i class="fa fa-check"></i>Vivamus accumsan porttitor justo sed </li>
+                                    <li><i class="fa fa-check"></i>Curabitur at massa id tortor fermentum luctus</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <img src="img/res01.jpg" alt="" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </section>
+    <!--/about-->
+    <!-- event -->
+    <!----------------------------------------event---------------------------------------------------->
+    <!--/ event -->
+    <!-- menu -->
+    <section id="menu-list" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center marb-35">
+                    <h1 class="header-h">Jelovnik</h1>
+                    <p class="header-p">Pogledajte ponudu roštilja, pizza i sendviča</p>
+                </div>
+                <div class="col-md-12  text-center gallery-trigger">
+                    <ul>
+                        <li><a class="filter" data-filter="all">Pogledaj sve</a></li>
+                        <li><a class="filter" data-filter=".category-1">Roštilj</a></li>
+                        <li><a class="filter" data-filter=".category-2">Pizza</a></li>
+                        <li><a class="filter" data-filter=".category-3">Sendviči</a></li>
+                    </ul>
+                </div>
+                <div id="Container">
+                    <div class="mix category-1 menu-restaurant" data-myorder="2">
+                        <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">$20.99</span>
+                      </span>
+                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                    </div>
+                    <div class="mix category-1 menu-restaurant" data-myorder="2">
+                        <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">$20.99</span>
+                      </span>
+                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                    </div>
+                    <div class="mix category-1 menu-restaurant" data-myorder="2">
+                        <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">$20.99</span>
+                      </span>
+                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                    </div>
+                    <div class="mix category-1 menu-restaurant" data-myorder="2">
+                        <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">$20.99</span>
+                      </span>
+                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                    </div>
+                    <div class="mix category-2 menu-restaurant" data-myorder="2">
+                        <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">$20.99</span>
+                      </span>
+                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                    </div>
+                    <div class="mix category-2 menu-restaurant" data-myorder="2">
+                        <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">$20.99</span>
+                      </span>
+                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                    </div>
+                    <div class="mix category-2 menu-restaurant" data-myorder="2">
+                        <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">$20.99</span>
+                      </span>
+                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                    </div>
+                    <div class="mix category-2 menu-restaurant" data-myorder="2">
+                        <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">$20.99</span>
+                      </span>
+                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                    </div>
+                    <div class="mix category-3 menu-restaurant" data-myorder="2">
+                        <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">$20.99</span>
+                      </span>
+                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                    </div>
+                    <div class="mix category-3 menu-restaurant" data-myorder="2">
+                        <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">$20.99</span>
+                      </span>
+                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                    </div>
+                    <div class="mix category-3 menu-restaurant" data-myorder="2">
+                        <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">$20.99</span>
+                      </span>
+                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                    </div>
+                    <div class="mix category-3 menu-restaurant" data-myorder="2">
+                        <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">$20.99</span>
+                      </span>
+                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ menu -->
+    <!-- contact -->
     
-    <!-- Color Switcher Style -->
-    <link rel="stylesheet" href="switcher/switcher.css">    
-    <!-- alternate style start || to use your preferred color, simply remove all style colors below and leave only your preferred color -->   
-    <link href="css/colors/dark.css" rel="stylesheet">
-    <link href="css/colors/brick.css" rel="stylesheet">
-    <link href="css/colors/turquoise.css" rel="stylesheet">
-    <link href="css/colors/violet.css" rel="stylesheet">
-    <link href="css/colors/purple.css" rel="stylesheet">
-    <link href="css/colors/pink.css" rel="stylesheet">
-    <link href="css/colors/orange.css" rel="stylesheet">   
-    <link href="css/colors/blue-2.css" rel="stylesheet">
-    <link href="css/colors/blue.css" rel="stylesheet">
-    <link href="css/colors/green-2.css" rel="stylesheet">
-    <link href="css/colors/green.css" rel="stylesheet">
-    <link href="css/colors/red-2.css" rel="stylesheet">
-    <link href="css/colors/red.css" rel="stylesheet">
-    <link href="css/colors/red.css" rel="stylesheet">
-    <link href="css/colors/default-color.css" rel="stylesheet"><!-- alternate style end -->
-
-    <!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-</head>
-<body>
-<!--[if lt IE 8]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
-<!-- screen loader start -->
-<div class="screen-loader"></div><!-- screen loader end -->
-<!-- preload start -->
-<div id="preload">
-    <!-- preload status start -->
-    <div id="preload-status"></div><!-- preload status end -->
-</div><!-- preload end -->
-
-<!-- === Header Section === -->
-<div id="container">
-	<!-- +++ Intro Section ++++ -->
-    <section class="intro">
-    	<div class="bg-overlay"></div>
-    	<!-- Fullscreen Background Slider Images -->
-		<div id="maximage">
-		    <img src="img/slide-one.jpg" alt="">
-		    <img src="img/slide-two.jpg" alt="">
-		</div>
-		
-		<!-- ====+++ Intro Section Content +++==== -->
-		<div class="center-content">			
-			<div class="intro-content text-center">	
-				<!-- Logo -->								
-				<div class="logo">
-					<h2 class="text-logo">Koprivica</h2>
-				</div><!-- /End logo -->							
-				<!-- ==== Main Heading ==== -->												
-				<h1 class="intro-title">Comming Soon<span class="obak">!</span></h1>
-						
-				
-				<!-- ==== Intro Section Sub-Heading ==== -->
-				
-				<div class="intro-subtitle">
-					<p>We are currently Creating Something Awesome.</p>
-				</div>							
-						
-			</div> <!-- /End Intro Section Content -->
-		</div>
-		<!-- ==== Intro Section Bottom Content ==== -->
-		<div class="container-bottom-content">					
-			<!-- ==== Social Links ==== -->
-			<div class="social">
-				<a href="https://www.facebook.com/aleksandar.koprivica"><i class="fa fa-facebook fa-2x fa-social"></i></a>
-				<a href="https://www.twitter.com/aleksandar282"><i class="fa fa-twitter fa-2x fa-social"></i></a>
-				<a href="https://www.linkedin.com/aleksandarkoprivica1"><i class="fa fa-linkedin fa-2x fa-social"></i></a>
-			</div> <!-- /End Social Links -->
-
-			<!-- ==== Notify Section ==== -->
-			<div class="notify-after text-center">						
-				<h2>Notify Me</h2>
-				<p>Subscribe our mail list for Latest update</p>
-				<form id="mc-form" class="form-inline" role="form">
-					<div class="form-group subscribe-form">							  							  
-						<input id="mc-email" type="email" placeholder="Your email" class="form-control input-label input-notify-after">
-						<button type="submit" class="btn btn-default btn-notify-after"><i class="fa fa-send-o"></i></button>
-					</div><!-- End email input -->						
-					<div class="subscribe_lebel">
-						<label for="mc-email"></label>
-					</div> 								
-				</form>																							
-			</div> <!-- /End Notify Section -->	
-
-			<!-- ==== Trigger Button ==== -->										
-			<button class="trigger">
-				<svg width="100%" height="100%" viewBox="0 0 60 60" preserveAspectRatio="none">
-					<g class="icon icon-grid">
-						<rect x="32.5" y="5.5" width="22" height="22"/>
-						<rect x="4.5" y="5.5" width="22" height="22"/>
-						<rect x="32.5" y="33.5" width="22" height="22"/>
-						<rect x="4.5" y="33.5" width="22" height="22"/>
-					</g>
-					<g class="icon icon-cross">
-						<line x1="4.5" y1="55.5" x2="54.953" y2="5.046"/>
-						<line x1="54.953" y1="55.5" x2="4.5" y2="5.047"/>
-					</g>
-				</svg>
-				<span>View content</span>
-			</button>											
-		</div> <!-- /End Intro Section Bottom Content -->			
-	</section><!-- /end intro section -->
-
-	<!-- +++ Trigger After Content +++ -->
-	<section class="content-wrapper">
-		<!-- ==== About Section ==== -->
-		<div class="about content-div">
-			<div class="container padding-x">
-				<div class="row text-center">
-					<!-- About Section Heading -->
-					<h2 class="title margin-btm-x">About Us</h2>
-					<!-- About Section Tagline -->
-					<p class="text-center title-tag">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<div class="col-sm-offset-1 col-sm-10 col-xs-12">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat congue leo, nec vehicula elit vehicula vel. Duis odio nibh, malesuada sed luctus ut, consectetur vel dui. Mauris vel imperdiet nulla. Sed eu ligula augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed a justo nec elit feugiat facilisis quis quis elit.</p>
-					</div>
-				</div>
-			</div>
-		</div> <!-- /End About Section -->
+    <!-- / contact -->
+    <!-- footer -->
+     <section id="contact" class="section-padding">
+    <footer class="footer text-center">
+        <div class="footer-top">
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6 text-center">
+                    <div class="widget">
+                        <img src="img/logo.png" alt="" class="img-responsive" height="50" width="auto">
+                        <address>Bulevar Kneza Miloša 17<br>Novi Sad <br>069/659-609</address>
+                        <div class="social-list">
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </div>
+                        <p class="copyright clear-float">
+                            <div class="credits">
+                                <!-- 
+                                    All the links in the footer should remain intact. 
+                                    You can delete the links only if you purchased the pro version.
+                                    Licensing information: https://bootstrapmade.com/license/
+                                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Delicious
+                                -->
+                                Copyright © <a href="https://nspaprika.com/">NSPAPRIKA 2017</a>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </section>
+    <!-- / footer -->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="contactform/contactform.js"></script> 
+    
+</body>
+</html>
