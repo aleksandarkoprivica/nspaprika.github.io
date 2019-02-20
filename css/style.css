@@ -41,7 +41,7 @@ table {
 #banner h2{
     font-family: 'Satisfy', sans-serif;
     font-size: 45px;
-    color: #FFB03B;
+    color: #D13539;
 }
 #banner p{
     font-family: 'PT Sans', sans-serif;
@@ -55,7 +55,7 @@ table {
     font-family: 'Satisfy', sans-serif;
     font-size: 65px;
     margin-top: 140px;
-    color: #FFB03B;
+    color: #D13539;
 }
 .sidenav {
     height: 100%;
@@ -100,7 +100,7 @@ table {
 }
 
 .header-h {
-    color: #FFB03B;
+    color: #D13539;
     font-size: 46px;
     font-family: 'Satisfy', sans-serif;
     font-weight: 300;
@@ -198,7 +198,7 @@ table {
     height: auto;
 }
 .contacts-btn {
-    background-color:  #FFB03B !important;
+    background-color:  #D13539 !important;
     color: #ffffff !important;
     width: 170px;
     height: 54px;
@@ -253,7 +253,7 @@ table {
 
 .heading{
     font-family: 'Satisfy', sans-serif;
-    color: #FFB03B;
+    color: #D13539;
     font-size: 24px;
 }
 .marb-35{
@@ -264,11 +264,11 @@ table {
 }
 .details-list ul li i {
     margin-right: 10px;
-    color: #ffb03b;
+    color: #D13539;
 }
 #about img
 {
-    border: 5px solid rgb(255, 176, 59);
+    border: 5px solid rgb(209, 53, 57);
     border-radius: 2px;
 }
 #event{
@@ -292,13 +292,13 @@ table {
     overflow: auto;
 }
 .content-holder h2 {
-    color: #FFB03B;
+    color: #D13539;
     font-size: 32px;
     padding-bottom: 15px;
     font-family: 'Satisfy', sans-serif;
 }
 .content-holder address strong {
-    color: #FFB03B;
+    color: #D13539;
     padding: 10px 0px;
 }
 .details-text p {
@@ -308,7 +308,7 @@ table {
     font-weight: 300;
 }
 .btn-read-more {
-    background: #FFB03B;
+    background: #D13539;
     padding: 7px 19px;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -338,7 +338,7 @@ table {
     font-family: Montserrat,arial;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FFB03B;
+    color: #D13539;
 }
 .menu-restaurant .menu-line {
     position: absolute;
@@ -365,9 +365,9 @@ table {
     display: block;
 }
 .gallery-trigger ul li a.active, .gallery-trigger ul li a:hover {
-    background: #FFB03B;
+    background: #D13539;
     color: #fff;
-    border: 1px solid #FFB03B;
+    border: 1px solid #D13539;
 }
 .gallery-trigger ul li {
     display: inline-block;
@@ -409,7 +409,7 @@ table {
     padding-bottom: 20px;
     font-family: 'Satisfy', sans-serif;
     font-size: 44px;
-    color: #FFB03B;
+    color: #D13539;
 }
 .footer .widget, .footer address {
     color: #999;
