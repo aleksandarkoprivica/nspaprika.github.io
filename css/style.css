@@ -4,30 +4,48 @@
     Author: BootstrapMade.com
     Author URL: https://bootstrapmade.com
 */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
 
 body {
-	font-size: 15px;
+    font-size: 15px;
     line-height: 1.52;
     color: #717f86;
     font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     overflow-x: hidden; 
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 #banner{
     background: url(../img/banner-bg.jpg) no-repeat center top;
@@ -207,8 +225,8 @@ table {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     text-transform: capitalize;
-    border: 0px;
-    color: #000 !important;
+    border: 2px;
+    color: #000000;
 }
 
 .validation {
