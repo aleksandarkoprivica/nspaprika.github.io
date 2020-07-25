@@ -2,9 +2,6 @@
    ==================================================
    ================================================== */
 /* *
- * Template Name: comingwa
- * Author: Riyad
- * Version: 1.0.0
  * 
  *
    ================================================== */
@@ -243,7 +240,6 @@ p {
   width: 100%;
 }
 .intro {
-  background-image: url(../img/bridge.jpg);
   background-size: cover;
   background-position: center;
   background-color: #2a2e39;

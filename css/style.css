@@ -57,7 +57,6 @@ table {
     min-height: 630px;
 }
 #banner h2{
-    font-family: 'Satisfy', sans-serif;
     font-size: 45px;
     color: #D13539;
 }
@@ -66,11 +65,7 @@ table {
     color: #fcfcfc;
     font-size: 34px;
 }
-.section-padding{
-    padding: 60px 0px;
-}
 .logo-name{
-    font-family: 'Satisfy', sans-serif;
     font-size: 65px;
     margin-top: 140px;
     color: #D13539;
@@ -120,8 +115,14 @@ table {
 .header-h {
     color: #D13539;
     font-size: 46px;
-    font-family: 'Satisfy', sans-serif;
-    font-weight: 300;
+    font-weight: 600;
+}
+
+.header-m {
+    color: #D13539;
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
 }
 .header-p {
     color: #9699a6;
@@ -161,6 +162,7 @@ table {
 .dark-blue {
     color: #31364c;
     font-size: 24px;
+    font-weight: 400;
     margin-top: 0;
 }
 .light-blue {
@@ -270,11 +272,17 @@ table {
 
 
 .heading{
-    font-family: 'Satisfy', sans-serif;
     color: #D13539;
     font-size: 24px;
+    font-weight: 700;
+}
+
+.heading-about{
+    text-align: justify;
+    text-justify: inter-word;
 }
 .marb-35{
+    margin-top: 20px;
     margin-bottom: 35px;
 }
 .details-list{
@@ -289,10 +297,7 @@ table {
     border: 5px solid rgb(209, 53, 57);
     border-radius: 2px;
 }
-#event{
-    background: url('../img/res02.jpg') no-repeat;
-    background-size: cover;
-}
+
 .left-images img {
     height: 308px;
     width: 100%;
@@ -313,7 +318,6 @@ table {
     color: #D13539;
     font-size: 32px;
     padding-bottom: 15px;
-    font-family: 'Satisfy', sans-serif;
 }
 .content-holder address strong {
     color: #D13539;
@@ -348,9 +352,14 @@ table {
 .menu-restaurant{
     width: 50%;
     float: left;
-    padding: 15px;
+    padding: 20px;
     position: relative;
 }
+
+.padding-items{
+    padding-top: 30px;
+}
+
 .menu-restaurant .menu-title {
     float: left;
     font-family: Montserrat,arial;
@@ -371,11 +380,32 @@ table {
     right: 0;
     top: 0;
 }
+
+.menu-restaurant .menu-pizza1 {
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+.menu-restaurant .menu-pizza2 {
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.menu-restaurant .menu-pizza3 {
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
 .menu-restaurant .menu-subtitle {
     display: block;
     float: left;
     color: #B1B1B1;
-    font-family: Satisfy,'Open Sans',arial;
+    font-family: arial;
     font-size: 1.2rem;
 }
 .menu-restaurant span.clearfix {
@@ -425,7 +455,6 @@ table {
 }
 .footer .widget-title{
     padding-bottom: 20px;
-    font-family: 'Satisfy', sans-serif;
     font-size: 44px;
     color: #D13539;
 }
